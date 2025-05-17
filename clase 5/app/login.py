@@ -21,7 +21,7 @@ def inicializarVariables(user, password):
     userlocal = "dcaballerro"
     passlocal = "unida123"
     codRes = 'SIN_ERROR'
-    menres = 'OK'
+    menRes = 'OK'
 
     try:
         print("Verificar login")

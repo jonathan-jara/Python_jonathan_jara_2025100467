@@ -8,19 +8,22 @@ body {
 .container {
     max-width: 900px;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 h1 {
     color: #333;
+    width: 100%; /* Para que el título ocupe todo el ancho y esté arriba */
+    text-align: center;
 }
 
-.card{
-    display: inline-block;
+.card {
     background-color: white;
-    margin: 15px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px  rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     width: 200px;
 }
